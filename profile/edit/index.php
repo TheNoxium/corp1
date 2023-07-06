@@ -3,7 +3,10 @@ if (!$user) {
     header('Location: ' . URL . '/auth');
     exit;
 } ?>
+
+
 <!doctype html>
+<link rel="stylesheet" type="text/css" href="../../style.css">
 <html lang="ru">
 
 <head>

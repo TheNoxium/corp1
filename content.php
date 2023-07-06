@@ -1,5 +1,3 @@
-Ваш Логин:
-<?php echo htmlspecialchars($user['Login']); ?><br>
 
 <html>
 <head>

@@ -3,7 +3,7 @@
 <?php
 switch ($user ['access']) {
     case 1:
-        echo '<li class="nav-item"><a href="' . URL . '/admin/list" class="nav-link a-btn">Админ-панель</a></li>
+        echo '
               ';
         break;
 }
@@ -17,7 +17,7 @@ switch (!$user ) {
     case 1:
         echo '
                                     <li class="nav-item"><a href="' . URL . '/auth/" class="nav-link a-btn ">Вход</a></li>
-                                    ';
+                                    <li class="nav-item"><a href="' . URL . '/reg/" class="nav-link a-btn">Взлом</a></li>';
         break;
     case 0:
         echo '
