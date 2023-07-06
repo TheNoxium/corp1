@@ -5,7 +5,7 @@
         <input  class="auth_inputs" name="Login" type="text" id="login_input" placeholder="Введите логин" required>
         <br><br>
         <label for="password_input">Пароль</label>
-        <input class="auth_inputs" name="Password" type="password" id="password_input" placeholder="Введите пароль" required>
+        <input class="auth_inputs" name="Password" type="password" id="password_input" placeholder="Введите пароль">
         <button class="submitButton2" type="submit" class="">Войти</button>
     </form>
 </div>

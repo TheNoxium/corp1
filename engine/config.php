@@ -7,9 +7,14 @@ ob_start();
 /*
  * Запускаем сессию
  */
+ini_set('session.gc_maxlifetime', 300);
+ini_set('session.cookie_lifetime', 300);
+
+
 session_start();
 date_default_timezone_set('Asia/Yekaterinburg');
 $today = date("Y-m-d H:i:s");  
+
 
 /*
 * 1. Определяем протокол
@@ -36,6 +41,8 @@ $user = isset($_SESSION['Login'], $_SESSION['Password']) ? authentication($_SESS
 
 
 
+
+
 switch ($user && isset($_GET['logout'])) {
     case 'logout':
         unset($_SESSION['Login'], $_SESSION['Password']);
@@ -43,3 +50,4 @@ switch ($user && isset($_GET['logout'])) {
         header('Location: ' . URL); // Место, куда нас перекинет после выхода
         break; // После, прекращаем выполнение кода.
 }
+

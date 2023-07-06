@@ -1,10 +1,15 @@
 <?php require_once 'engine/config.php';
-
-if (!$user)
-{
+ 
+if (!$user )
+{  
     header('Location: ' . URL . '/auth');
     exit;
 }
+
+
+
+
+
 ?>
 
 

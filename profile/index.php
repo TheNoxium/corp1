@@ -4,8 +4,6 @@ if (!$user)
     header('Location: ' . URL . '/auth');
     exit;
 }
-
-
 ?>
 
 

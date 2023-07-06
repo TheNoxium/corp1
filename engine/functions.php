@@ -10,6 +10,8 @@ function authentication($Login, $Password)
     return mysqli_fetch_assoc(mysqli_query($db, $query));
 }
 
+
+
 /*
  * Функция вывода прав пользователю
  */
@@ -22,4 +24,5 @@ function access($getAccess)
             return '<span style="color: GREEN; ">Пользователь</span>';
     }
 }
+
 
