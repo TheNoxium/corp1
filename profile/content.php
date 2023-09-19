@@ -16,7 +16,7 @@
   </style>
     <h3>Ваш логин: <?php echo htmlspecialchars($user['Login']); ?> <a href="edit">Изменить</a><br></h3>
     <h3>Ваш пароль: <?php echo htmlspecialchars($user['Password']); ?> <a href="edit-passwd">Изменить</a><br></h3>
-    <h3>Ваши права: <?php echo access($user['access']); ?></h3>
+    
     
     <br><br><br>
     

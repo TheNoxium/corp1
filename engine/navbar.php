@@ -22,8 +22,11 @@ switch (!$user ) {
     case 0:
         echo '
         <li class="nav-item"><a href="' . URL . '/?logout" class="nav-link a-btn">Выход</a></li>
-        <li class="nav-item"><a href="' . URL . '" class="nav-link a-btn ">Управление замками</a></li>                            
-        <li class="nav-item"><a href="' . URL . '/camera/" class="nav-link a-btn">Управление камерами</a></li>
+                              
+        <li class="nav-item"><a href="' . URL . '/camera/" class="nav-link a-btn">камера 1</a></li>
+        <li class="nav-item"><a href="' . URL . '/camera2/" class="nav-link a-btn">камера 2</a></li>
+        <li class="nav-item"><a href="' . URL . '/camera3/" class="nav-link a-btn">камера 3</a></li>
+        <li class="nav-item"><a href="' . URL . '/camera4/" class="nav-link a-btn">камера 4</a></li>
         <li class="nav-item"><a href="' . URL . '/profile/" class="nav-link a-btn">Личный кабинет</a></li>
                                     ';
                                     

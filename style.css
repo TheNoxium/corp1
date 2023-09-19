@@ -3,7 +3,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: 11pt;
     background-image: url(1.png);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     color: #blue;
 
 
@@ -344,3 +344,13 @@ h1 {
 
 }
 
+.edit1{
+    
+    margin-top: 10%;
+    font-size: 15px;
+    color: #ff0000;
+    text-align: center;
+    
+    
+
+}
